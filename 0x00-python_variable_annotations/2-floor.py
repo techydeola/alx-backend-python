@@ -10,5 +10,6 @@ import math
 
 def floor(n: float) -> float:
     """ takes an args and return its floor
+        returns: type float
     """
     return math.floor(n)
