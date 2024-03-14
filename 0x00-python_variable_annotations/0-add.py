@@ -7,9 +7,6 @@
 
 def add(a: float, b: float) -> float:
     """takes two args(float) and return their sum
-    
-    Keyword arguments:
-    Return: a + b
+        Return: a + b
     """
-    
     return a + b
