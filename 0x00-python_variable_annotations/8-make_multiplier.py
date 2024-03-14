@@ -16,7 +16,6 @@ def make_multiplier(multiplier: float) -> Callable[[float], float]:
         """ An inner function that takes one argument
             Return: a float
         """
-        
         return multiplier * x
-    
+
     return mult
