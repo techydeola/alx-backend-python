@@ -4,8 +4,10 @@
     of floats as argument and returns their sum as a float.
 """
 
+from typing import List
 
-def sum_list(input_list: list[float]) -> float:
+
+def sum_list(input_list: List[float]) -> float:
     """ takes an args(list[float]) and return sum of all elements
         returns: type str
     """
