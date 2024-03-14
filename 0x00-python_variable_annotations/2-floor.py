@@ -8,7 +8,7 @@ import math
 """
 
 
-def floor(n: float) -> float:
+def floor(n: float) -> int:
     """ takes an args and return its floor
         returns: type float
     """
