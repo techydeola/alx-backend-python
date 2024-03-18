@@ -6,15 +6,14 @@
 """
 
 
-from typing import Any
 import asyncio
 
 wait_random = __import__('0-basic_async_syntax').wait_random
 
 
-def task_wait_random(max_delay: int) -> Any:
+def task_wait_random(max_delay: int) -> asyncio.Task:
     """
-        A function that measure run time for an async function
+        A function that return the type of a coroutine function.
         Return: asynchio.Task
     """
     return asyncio.create_task(wait_random(max_delay))
