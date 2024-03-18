@@ -2,7 +2,7 @@
 
 """
     This module makes use of the asynchronous function that is imported from
-    0-basic_async_function
+    4-tasks
 """
 
 
