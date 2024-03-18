@@ -6,18 +6,19 @@
 """
 
 
+import asyncio
 import time
 
 wait_n = __import__('1-concurrent_coroutines').wait_n
 
 
-async def measure_time(n: int, max_delay: int) -> float:
+def measure_time(n: int, max_delay: int) -> float:
     """
         An asynchronous function that measure run time for an async function
         Return: elapsed time / 2
     """
     start_time: float = time.time()
-    await wait_n(n, max_delay)
+    asyncio.run(wait_n(n, max_delay))
     end_time: float = time.time()
     elapsed_time: float = end_time - start_time
 
