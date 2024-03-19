@@ -6,10 +6,10 @@
 
 import random
 import asyncio
-from typing import AsyncGenerator
+from typing import Generator
 
 
-async def async_generator() -> AsyncGenerator[float, None]:
+async def async_generator() -> Generator[float, None, None]:
     """
         this function loops over the range of 10 and sleep for one second
         in each iteration
